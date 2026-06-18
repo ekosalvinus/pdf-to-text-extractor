@@ -1,8 +1,8 @@
 # PDF to Text Extractor
 This application is used to extract PDF files into text.
-The extracted files can be saved as *.txt files.
+The extracted files can be saved as ```*.txt``` files.
 
-Before using it, use the instructions to set up a Python venv and install the required dependencies. 
+Before using it, use the instructions to set up a Python ```venv``` and install the required dependencies. 
 
 ## Set Up Environtment (venv)
 ```bash
@@ -76,12 +76,12 @@ python3 pdf_reader.py cys3.pdf --info
 ## Fitur yang ada:
 
 - Auto-detect apakah PDF punya teks layer atau hasil scan
-- Dual engine -=> pakai pdfplumber utama, fallback ke PyMuPDF otomatis kalau gagal
+- Dual engine => pakai ```pdfplumber``` utama, fallback ke ```PyMuPDF``` otomatis kalau gagal
 - Ekstrak tabel juga ikut diambil
-- Bersihkan teks -=> hapus karakter aneh, normalize spasi & baris
-- Export langsung ke *.txt dengan nama sama
-- Preview 500 karakter pertama tanpa -v
-- Support PDF terenkripsi via --password
+- Bersihkan teks => hapus karakter aneh, normalize spasi & baris
+- Export langsung ke ```*.txt``` dengan nama sama
+- Preview 500 karakter pertama tanpa ``` -v ```
+- Support PDF terenkripsi via ``` --password ```
 
 
 ⚠️ Kalau PDF hasil scan (foto/gambar), tidak ada teks layer yang bisa dibaca maka butuh OCR (Tesseract). Aplikasi ini akan kasih peringatan otomatis kalau ketemu kasus tersebut.
